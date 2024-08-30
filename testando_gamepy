@@ -1,0 +1,19 @@
+import pygame
+
+pygame.init()
+
+cor =- (25, 5, 25)
+size = 1000, 500
+tela = pygame.display.set_mode(size)
+pygame.display.set_caption("Titulo da tela")
+screen.fill((255,0,2))
+
+
+
+
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+            pygame.quit()
